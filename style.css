@@ -1,0 +1,84 @@
+body{background:url(http://bootstraptema.ru/images/bg/bg-4.png)}
+
+.serviceBox{
+ border: 1px solid #8a716a;
+ border-radius: 10px;
+ margin-top: 30px;
+ padding: 25px 20px;
+ position: relative;
+ width: 200px;
+}
+.spoiler_body {display:none;background-color:#f1f1f1;height:200px;width:1200px;}
+.spoiler_links {cursor:pointer;}
+.serviceBox .service-icon{
+ width: 60px;
+ height: 60px;
+ line-height: 60px;
+ border-radius: 5px;
+ background: #9074E3;
+ font-size: 40px;
+ color: #fff;
+ text-align: center;
+ position: absolute;
+ top: -30px;
+ right: 40px;
+}
+.serviceBox .service-icon:before{
+ content: "";
+ width: 100%;
+ height: 100%;
+ background: #fff;
+ position: absolute;
+ top: -20px;
+ left: -45px;
+ opacity: 0.1;
+ transform: rotate(137deg) scale(1.5) skew(29deg) translate(-1px);
+}
+.serviceBox .service-icon:after{
+ content: "";
+ border-top: 11px solid #9074E3;
+ border-right: 11px solid transparent;
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -4px;
+}
+.serviceBox .title{
+ font-size: 24px;
+ color: #787472;
+}
+.serviceBox .description{
+ font-size: 16px;
+ color: #8a716a;
+ line-height: 25px;
+}
+@media only screen and (max-width: 990px){
+ .serviceBox{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 767px){
+ .serviceBox{ margin-bottom: 40px; }
+}
+.cont{
+ margin-top: 100px;
+}
+
+.block {
+ background:red;
+ margin:15px;
+ width:100px;
+
+}
+.ui-state-hover {
+ background:lightyellow;
+}
+.ui-state-active {
+ background:lightgray
+}
+.container {
+ border: 2px solid red;
+ width: 350px;
+ height: 120px;
+ overflow-x: auto;
+ overflow-y: hidden;
+ white-space: nowrap;
+}
