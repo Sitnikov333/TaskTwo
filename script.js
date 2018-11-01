@@ -10,8 +10,8 @@ $(function() {
     var block = $('.block');
 
     block.wrap('<div class="controls" />');
-    $('<a class="down" >Вправо </a>').insertAfter(block);
-    $('<a class="up" >Влево</a>').insertAfter(block);
+    $('<button class="down" >Вправо </button>').insertAfter(block);
+    $('<button class="up" >Влево</button>').insertAfter(block);
 
     $('.up').click(function() {
         var currentBlock = $(this).parent();
