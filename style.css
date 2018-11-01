@@ -1,5 +1,4 @@
 body{background:url(http://bootstraptema.ru/images/bg/bg-4.png)}
-
 .serviceBox{
  border: 1px solid blue;
  border-radius: 10px;
@@ -31,12 +30,9 @@ body{background:url(http://bootstraptema.ru/images/bg/bg-4.png)}
  overflow-y: hidden;
  white-space: nowrap;
 }
-
 .down {
-
  float: right;
 }
-
 .three {
  padding: 50px 20px;
  text-align: center;
@@ -44,7 +40,6 @@ body{background:url(http://bootstraptema.ru/images/bg/bg-4.png)}
 .three h1 {
  font-family: 'Merriweather', serif;
  position: relative;
-
  background: #90806A;
  font-size: 2.5em;
  font-weight: normal;
